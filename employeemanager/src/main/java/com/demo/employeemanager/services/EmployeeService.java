@@ -5,6 +5,7 @@ import java.util.UUID;
 
 import com.demo.employeemanager.models.Employee;
 import com.demo.employeemanager.repos.EmployeeRepo;
+import com.demo.employeemanager.exceptions.UserNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
